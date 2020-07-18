@@ -1,0 +1,56 @@
+ja:
+  datetime:
+    distance_in_words:
+      half_a_minute: "30秒前後"
+      less_than_x_seconds:
+        one:  "1秒"
+        other: "%{count}秒"
+      x_seconds:
+        one:  "1秒"
+        other:  "%{count}秒"
+      less_than_x_minutes:
+        one:  "1分"
+        other:  "%{count}分"
+      x_minutes:
+        one:  "約1分"
+        other:  "%{count}分"
+      about_x_hours:
+        one:  "約1時間"
+        other: "約%{count}時間"
+      x_days:
+        one: "1日"
+        other: "%{count}日"
+      about_x_months:
+        one: "約1ヶ月"
+        other: "約%{count}ヶ月"
+      x_months:
+        one: "1ヶ月"
+        other: "%{count}ヶ月"
+      almost_x_years:
+        one: "1年弱"
+        ohter: "%{count}年弱"
+      about_x_years:
+        one: "約1年"
+        other: "約%{count}年"
+      over_x_years:
+        one: "1年以上"
+        other: "%{count}年以上"
+
+    devise:
+      confirmations:
+        confirmed:  'アカウントを登録しました。'
+        send_instructions: 'アカウントの有効化について数分以内にメールでご連絡します。'
+        send_paranoid_instructions: "あなたのメールアドレスが登録済みの場合、本人確認用のメールが数分いないに送信されます。"
+      failure:
+        already_authenticated: 'すでにサインインしています。'
+        inactive: 'アカウントが有効化されていません。メールに記載された手順にしたがって、アカウントを有効化してください。'
+        invalid: "%{authentication_keys} もしくはパスワードが不正です。"
+        locked: 'あなたのアカウントは凍結されています。'
+        last_attempt: 'あなたのアカウントが凍結される前に、複数回の操作がおこなわれています。'
+        not_found_in_database: "%{authentication_keys} もしくはパスワードが不正です。"
+        timeout: 'セッションがタイムアウトしました。もう一度サインインしてください。'
+        unauthenticated: 'アカウント登録もしくはサインインしてください。'
+        unconfirmed: 'メールアドレスの本人確認が必要です。'
+      mailer:
+        confirmation_instructions:
+        subject: 'アカウントの有効化について'
